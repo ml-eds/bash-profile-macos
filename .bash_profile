@@ -7,6 +7,11 @@ export HISTFILESIZE=1000
 bind '"\C-b":history-search-backward'
 bind '"\C-f":history-search-forward'
 
+# generate log-archive for last 24h 
+# as file "system_logs.logarchive" in local dir
+# open with Console.app
+alias logarchive24h='sudo log collect --last 1d && open -a /Applications/Utilities/Console.app ./system_logs.logarchive'
+
 
 # Aliases
 
