@@ -15,6 +15,7 @@ alias logarchive24h='sudo log collect --last 1d && open -a /Applications/Utiliti
 
 # Aliases
 
+alias calweek='ncal -w'
 alias ll='ls -la'
 alias flushdns='dscacheutil -flushcache;sudo killall -HUP mDNSResponder'
 alias reload='source ~/.bash_profile'
